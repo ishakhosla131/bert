@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="container" id="startPg">
+        <h1 class="text-center"> JavaScript Quiz</h1>
+        <br>
+        <p>You have 1 minute to answer the following JavaScript questions. Answer incorrectly, you lose 2 seconds. When
+            done, enter your highscore!</p>
+        <br>
+        <button type="button" class="btn btn-dark " id="startBtn">Start Quiz</button>
+    </section>
+    <section class="container d-none" id="quizPg">
+        <div class="row">
+            <div class="col-lg-11 text-center">
+                <h1>JavaScript Quiz</h1>
+            </div>
+            <div id="timer" class="col-lg-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-11">
+                <div id="question" class="text-center"></div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row">
+            <div class=col-lg-4></div>
+            <div class=col-lg-8>
+                <ul id="option-list"></ul>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="question-result"></div>
+    </section>
+    
+    <script src="style.js"></script>
+</body>
+
+</html>
